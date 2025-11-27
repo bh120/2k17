@@ -217,6 +217,51 @@ feature-card {
 .game-image {
   border-radius: 0.75rem;
 }
+/* CSS FILTER requirement (applied to main cover image) */
+.filtered-image {
+  filter: saturate(1.2) contrast(1.05) drop-shadow(0 15px 25px rgba(15, 23, 42, 0.4));
+  transition: filter 0.3s ease, transform 0.3s ease;
+}
+/* CSS FILTER requirement (applied to main cover image) */
+.filtered-image {
+  filter: saturate(1.2) contrast(1.05) drop-shadow(0 15px 25px rgba(15, 23, 42, 0.4));
+  transition: filter 0.3s ease, transform 0.3s ease;
+}
+/* Transform example on second image */
+.hover-zoom {
+  transition: transform 0.4s ease;
+}
+.hover-zoom:hover {
+  transform: scale(1.05) translateY(-4px);
+}
+figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+.image-credit {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+/* Responsive embedded video */
+.responsive-video {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  border-radius: 0.75rem;
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.3);
+}
+.responsive-video iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+
 
 
 
