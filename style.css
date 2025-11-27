@@ -85,6 +85,25 @@ img {
   width: min(1100px, 100% - 3rem);
   margin-inline: auto;
 }
+/* ===================================
+   3. LAYOUT: HEADER, SECTIONS, FOOTER
+   =================================== */
+
+.site-header {
+  background: linear-gradient(135deg, var(--bg-dark), #17233a);
+  color: #ffffff;
+  padding: 1.5rem 0 2rem 0;
+}
+.site-title {
+  font-size: 2.5rem;
+}
+
+.site-tagline {
+  margin-top: 0.25rem;
+  color: var(--text-muted);
+  color: #e5e7eb;
+}
+
 
 
 
