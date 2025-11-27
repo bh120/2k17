@@ -124,6 +124,26 @@ img {
   border-color: rgba(255, 255, 255, 0.4);
   transform: translateY(-2px);
 }
+.section {
+  padding: 3rem 0;
+  background: #ffffff;
+}
+
+.section-alt {
+  background: #f0f3ff;
+}
+
+.site-footer {
+  background-color: var(--bg-dark);
+  color: #d1d5db;
+  text-align: center;
+  padding: 1.5rem 0;
+  font-size: 0.9rem;
+}
+
+.site-footer a {
+  color: #93c5fd;
+}
 
 
 
